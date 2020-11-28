@@ -39,6 +39,7 @@ impl Worker {
     }
 
     pub fn new() -> Worker {
+        panic!("111111111111111111111111111111111");
         Self::new_with_cpus(num_cpus::get())
     }
 
